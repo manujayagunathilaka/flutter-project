@@ -1,6 +1,9 @@
 import 'package:first_project/screens/activity_1.dart';
+import 'package:first_project/screens/dashboard_screen.dart';
+import 'package:first_project/screens/flex_test.dart';
 import 'package:first_project/screens/home_screen.dart';
 import 'package:first_project/screens/icons_screen.dart';
+import 'package:first_project/screens/practice_one.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,9 +19,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: Text("Hello world"),
-      home: homeScreen()
+      // home: homeScreen()
+      // home: FlexTest()
       // home: iconScreen()
       // home: AppBarActivity()
+      // home: DashboardScreen()
+      home: PracticeOne()
     );
   }
 }
