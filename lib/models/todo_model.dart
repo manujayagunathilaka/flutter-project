@@ -3,6 +3,7 @@ class TodoModel {
   int id;
   String title;
   String? description; // In ? we decide this is nullable. It mean this can be null. In future it can be has value.
+  String? priority;
   bool completed;
 
 
@@ -12,7 +13,8 @@ class TodoModel {
   TodoModel ({
     required this.id,
     required this.title,
-    this.description,
+    required this.description,
+    required this.priority,
     this.completed = false,
   });
 }
